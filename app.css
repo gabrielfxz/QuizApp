@@ -1,5 +1,6 @@
 :root {
-    background-color: #ecf5ff;
+    /*background-color: #ecf5ff;*/
+    background-color: #121212;
     font-size: 62.5%;
 }
 
@@ -8,7 +9,7 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: rgb(201, 201, 201);
 }
 
 h1,
@@ -50,6 +51,7 @@ h3 {
     align-items: center;
     max-width: 80rem;
     margin: 0 auto;
+    padding: 2rem;
 }
 
 .container>* {
@@ -88,8 +90,8 @@ h3 {
     border: 0.1rem solid #56a5eb;
     margin-bottom: 1rem;
     text-decoration: none;
-    color: #56a5eb;
-    background-color: white;
+    color: #ffffff;
+    background-color: rgb(78, 118, 204);
 }
 
 .btn:hover {
