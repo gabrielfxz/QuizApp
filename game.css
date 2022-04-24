@@ -35,7 +35,7 @@
 
 /* HUD */
 
-#hud{
+#hud {
     display: flex;
     justify-content: space-around;
 }
@@ -47,4 +47,17 @@
 
 .hud-main-text {
     text-align: center;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid rgb(32, 92, 255);
+    margin-top: 1.5rem;
+}
+
+#progressBarFull {
+    height: 3.4rem;
+    background-color: rgb(32, 92, 255);
+    width: 0%;
 }
